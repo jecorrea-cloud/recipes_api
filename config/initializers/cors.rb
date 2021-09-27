@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://61314e6042ef1233a92af366--practical-khorana-b1f0f5.netlify.app/'
+    origins 'https://git.heroku.com/book-cook-backend.git'
 
     resource '*',
       headers: :any,
